@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": true,
+    "skipLibCheck": true
+  },
+  "exclude": [],
+  "references": [
+    { "path": "./packages/shared-schemas" },
+    { "path": "./apps/web" },
+    { "path": "./apps/chromeextension" },
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "email-listener",
+  "scripts": {
+    "build": "go build -o bin/main ./cmd/listener",
+    "dev": "go run main.go",
+    "test": "go test ./..."
+  }
+}

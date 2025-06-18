@@ -1,0 +1,55 @@
+﻿ Received: from mail-pg1-f181.google.com (mail-pg1-f181.google.com [209.85.215.181])
+	by app.getchain.dev (Postfix) with ESMTPS id 11BB8B7C02
+	for <testuser@emalias.app>; Thu, 28 Nov 2024 01:31:32 +0000 (UTC)
+Received: by mail-pg1-f181.google.com with SMTP id 41be03b00d2f7-7fc2dbee20fso183938a12.3
+        for <testuser@emalias.app>; Wed, 27 Nov 2024 17:31:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1732757490; x=1733362290; darn=emalias.app;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=ATY+MCHtBWVC1VpQe4ugf420TjCXodMow31Ek8kZAFo=;
+        b=PXJKq3kvJENnEsRH7xCyhZU728YmxpJ+7hZ/NZiXl6voL3dFShI0P50tHgxN5a9E5q
+         US+oKKJxjAwgKifyi2RitrBbYvIZYIuBU3UM+ltX14C7gSPQsBIBV9N/IzsaqeiDS1k1
+         vrzhmQYAjTdU/DdMLQuoOoBNSc8NPrL9/6Yojfb94V+Enx/cwL/hxnVC56B+XsZnY5Ls
+         EMuBwktYihIade78FxKxubMsuHuSuKMPVVYJOPH9GRX7r0WCTSRT5NADpfmU3YVuBviw
+         YGYcTRxDS04UfYIBUarFuGc7YbyDtpE3cDCWuddvcFB2OEvdNKO8P5RkAVhn2G/lb0Hc
+         rKCg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1732757490; x=1733362290;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=ATY+MCHtBWVC1VpQe4ugf420TjCXodMow31Ek8kZAFo=;
+        b=M4iWzmZ9cRG1GjcY/u4tiMYwuVS3JqtSTqeRzksdweWbJBRo+55cjMyZHiLe8BkE7+
+         eV3pjMYIjbceSVWSyLdTFavAQ7kBY+0ssSNQN1gv9uh2aG0MCktOOlEJB0siXHqldyKC
+         vr1l6LPBzNBVt3r4iuEdvwz1AUV02Ix3RvrXvh3kihMZp2IIBAjr3B7pfLj/aQdi/pUg
+         yBJ0Ai2bnT+tr4O63CvWOKoYRQlqD4j1pWGRUN/3WN1+/HoQlzltqg2AnRJcFnsD9WPm
+         EUGGy0LCICOzFt7mK2syshe4y9wBW6gX8m6T9PEPKi7bEef4WHGqFOLA/3DtQquJCeKK
+         3E4A==
+X-Gm-Message-State: AOJu0Yzx7PT2ofRF0o37P6sbdhlAvfB9MvK79PrTtjD7rc/2gISaCszU
+	pbVhHHK+prlifksD5TfqYnNbTlV4IneomAcwedyKe2+WSDf2/mh3BQYLfrQt1YAUC8sXIPl0RSt
+	CfAjRt8HIy/xBrFJU2nsL1fqamMqmbXGg
+X-Gm-Gg: ASbGncsWf5v2o4anshTwvv66pmg79T3Ee40R5XgEeDM1ck9G305t9elAJ4lvtcxd9FB
+	dIiW+j88hMqpLNi8kOxpzcr+JesqHB17h
+X-Google-Smtp-Source: AGHT+IGl2c52aGDbZ3Yb0z+8CR0m0NWK5fqjWKpz5FPUAAXYqjfCDGIu0i61dt6vQIj7nLWSAYa9LtD1wDwdDijewvQ=
+X-Received: by 2002:a17:90b:4d01:b0:2ea:59e3:2d2e with SMTP id
+ 98e67ed59e1d1-2ee08eb1144mr6723547a91.10.1732757489929; Wed, 27 Nov 2024
+ 17:31:29 -0800 (PST)
+MIME-Version: 1.0
+From: Jonathan Ruffles <jonathan.ruffles03@gmail.com>
+Date: Thu, 28 Nov 2024 01:31:18 +0000
+Message-ID: <CAAsBtmhngYScYdD3U4OHhGeNvKFpobokrpY9dT3_+4pqccqdkw@mail.gmail.com>
+Subject: hi
+To: testuser@emalias.app
+Content-Type: multipart/alternative; boundary="000000000000ab57290627ef0a52"
+
+--000000000000ab57290627ef0a52
+Content-Type: text/plain; charset="UTF-8"
+
+hihih
+
+--000000000000ab57290627ef0a52
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">hihih<br></div>
+
+--000000000000ab57290627ef0a52--

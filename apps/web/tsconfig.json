@@ -1,0 +1,25 @@
+{
+  "extends": "@repo/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "alwaysStrict": true,
+    "strict": true,
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.mts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next.config.js",
+    "tailwind.config.js"
+  ],
+  "exclude": ["node_modules"]
+}

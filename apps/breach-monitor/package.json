@@ -1,0 +1,8 @@
+{
+  "name": "breach-monitor",
+  "scripts": {
+    "build": "go build -o bin/main ./cmd/breach-monitor",
+    "dev": "go run main.go",
+    "test": "go test ./..."
+  }
+}

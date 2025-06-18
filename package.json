@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+	"build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "devDependencies": {
+    "turbo": "2.5.4"
+  }
+}
