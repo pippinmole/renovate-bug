@@ -40,7 +40,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.0.0",
     "drizzle-orm": "^0.44.0",
     "drizzle-zod": "0.8.2",
     "fumadocs-core": "^15.0.1",
