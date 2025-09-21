@@ -44,7 +44,7 @@
     "drizzle-orm": "^0.44.0",
     "drizzle-zod": "0.8.2",
     "fumadocs-core": "^15.0.1",
-    "fumadocs-mdx": "^11.4.0",
+    "fumadocs-mdx": "^12.0.0",
     "fumadocs-ui": "^15.0.1",
     "lucide-react": "^0.511.0",
     "motion": "^12.9.2",
