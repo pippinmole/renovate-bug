@@ -2,17 +2,17 @@ module email-listener
 
 go 1.23.0
 
-toolchain go1.24.3
+toolchain go1.25.1
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
-	github.com/emersion/go-smtp v0.22.0
-	github.com/getsentry/sentry-go v0.33.0
+	github.com/emersion/go-smtp v0.24.0
+	github.com/getsentry/sentry-go v0.35.3
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
 	github.com/mcnijman/go-emailaddress v1.1.1
-	github.com/mnako/letters v0.2.5
-	github.com/stretchr/testify v1.10.0
+	github.com/mnako/letters v0.2.6
+	github.com/stretchr/testify v1.11.1
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 )
 
